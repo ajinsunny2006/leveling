@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling Workout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Quest !</h1>
+<h2>Player: Ajin</h2>
+        <div class="level">
+            <p>Level: <span id="level">1</span></p>
+        </div>
+        <div class="activities">
+            <button onclick="completeActivity('pushups')">Complete Pushups</button>
+            <button onclick="completeActivity('situps')">Complete Situps</button>
+            <button onclick="completeActivity('squats')">Complete Squats</button>
+            <button onclick="completeActivity('legraises')">Complete Leg Raises</button>
+            <button onclick="completeActivity('boatpose')">Complete Boat Pose</button>
+            <button onclick="completeActivity('hiplift')">Complete Hip Lift</button>
+            <button onclick="completeActivity('run')">Complete 1km Run</button>
+        </div>
+        <div id="levelUpMessage" class="hidden">
+            <p>Leveled Up! Congratulations!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
